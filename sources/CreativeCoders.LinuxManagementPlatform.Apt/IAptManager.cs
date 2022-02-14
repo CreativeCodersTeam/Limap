@@ -1,5 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using CreativeCoders.LinuxManagementPlatform.Core.CommandExecution;
+﻿using CreativeCoders.LinuxManagementPlatform.Core.CommandExecution;
 
 namespace CreativeCoders.LinuxManagementPlatform.Apt;
 
