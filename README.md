@@ -1,0 +1,2 @@
+# Limap
+Linux Management Platform
