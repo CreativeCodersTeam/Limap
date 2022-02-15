@@ -2,18 +2,11 @@
 
 namespace CreativeCoders.LinuxManagementPlatform.Apt;
 
-public interface IAptManager
-{
-    Task<bool> Install(IEnumerable<string> packages);
-
-    Task<bool> AddRepository(AptRepositoryInfo repositoryInfo);
-}
-
-internal class AptManager : IAptManager
+internal class AptPackageManager : IAptPackageManager
 {
     private readonly ICommandExecutor _commandExecutor;
 
-    public AptManager(ICommandExecutor commandExecutor)
+    public AptPackageManager(ICommandExecutor commandExecutor)
     {
         _commandExecutor = commandExecutor;
     }
