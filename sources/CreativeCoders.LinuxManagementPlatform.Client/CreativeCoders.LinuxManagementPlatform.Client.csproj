@@ -8,4 +8,8 @@
     <AssemblyName>limap</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CreativeCoders.LinuxManagementPlatform.Core\CreativeCoders.LinuxManagementPlatform.Core.csproj" />
+  </ItemGroup>
+
 </Project>
